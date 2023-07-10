@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.a8d8f1ae.css",
+    "main.js": "/portfolio-website/static/js/main.f80dcdb2.js",
+    "static/media/fa-solid-900.ttf": "/portfolio-website/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/Sanket_Bhosale(AZ-900).pdf": "/portfolio-website/static/media/Sanket_Bhosale(AZ-900).ab8662f9d8fb0a33b8b6.pdf",
+    "static/media/Sanket_Bhosale(DP-203).pdf": "/portfolio-website/static/media/Sanket_Bhosale(DP-203).8625af65dc70ce932fed.pdf",
+    "static/media/fa-brands-400.ttf": "/portfolio-website/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/comp3_4.png": "/portfolio-website/static/media/comp3_4.6e1fe6cff09b3e9ddc30.png",
+    "static/media/fa-solid-900.woff2": "/portfolio-website/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/Sanket_Bhosale(DP-420).pdf": "/portfolio-website/static/media/Sanket_Bhosale(DP-420).09db8175fcca550defb3.pdf",
+    "static/media/Sanket_Bhosale(DP-900).pdf": "/portfolio-website/static/media/Sanket_Bhosale(DP-900).f461b78b120f58543a02.pdf",
+    "static/media/Sanket_Bhosale(PL-900).pdf": "/portfolio-website/static/media/Sanket_Bhosale(PL-900).b5b8e6f6afa137cf250e.pdf",
+    "static/media/profile.jpg": "/portfolio-website/static/media/profile.7fb25724b1b8cba6add3.jpg",
+    "static/media/fa-brands-400.woff2": "/portfolio-website/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/resume_Sanket_Bhosale.pdf": "/portfolio-website/static/media/resume_Sanket_Bhosale.4cd968cd9191f4f0f2ab.pdf",
+    "static/media/fa-regular-400.ttf": "/portfolio-website/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/comp3_3_1.png": "/portfolio-website/static/media/comp3_3_1.9d51d68bb5da481bb7a8.png",
+    "static/media/fa-regular-400.woff2": "/portfolio-website/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio-website/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio-website/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/portfolio-website/index.html",
+    "main.a8d8f1ae.css.map": "/portfolio-website/static/css/main.a8d8f1ae.css.map",
+    "main.f80dcdb2.js.map": "/portfolio-website/static/js/main.f80dcdb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8d8f1ae.css",
+    "static/js/main.f80dcdb2.js"
+  ]
+}
