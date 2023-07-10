@@ -1,0 +1,36 @@
+.footer {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: auto; Set the desired height for the footer */
+  }
+  
+  .footer a {
+    color: lightgray;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  /* .footer.light a {
+    color: darkcyan;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+  } */
+  
+  .footer i {
+    margin-right: 5px;
+    
+  }

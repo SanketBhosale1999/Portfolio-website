@@ -1,0 +1,94 @@
+.certification-container {
+  padding: 20px;
+  /* background-color: #3d3b3b; */
+  }
+  
+  .section-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  }
+  
+  .certification-item.dark {
+  background-color: black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #999999;
+  color: white;
+  padding: 20px;
+  height: auto;
+  }
+  
+  .certification-item.light {
+  background-color: cyan;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #999999;
+  color: white;
+  padding: 20px;
+  height: auto;
+  }
+  
+  .certification-item .duration {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 15px;
+  }
+  .certification-item.light .duration {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 15px;
+    }
+    
+  
+  
+  
+  .certification-item .blue-button {
+  background-color: transparent;
+  color: blue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  .certification-item .blue-button:hover {
+  background-color: blue;
+  color: white;
+  }
+  certification-item.light .blue-button {
+    background-color: transparent;
+    color: darkblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    
+    
+    .certification-item.light .blue-button:hover {
+    background-color: darkblue;
+    color: white;
+    }
+  
+  .link {
+  color: grey;
+  text-decoration: underline;
+  }
+  .certification-item.light .link {
+    color: grey;
+    text-decoration: underline;
+    }
+  .link:hover {
+  color: blue;
+  }
+  .certification-item.light .link:hover {
+    color: blue;
+    }

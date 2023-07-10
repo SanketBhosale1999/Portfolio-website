@@ -1,0 +1,117 @@
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.education-box {
+  position: relative;
+  width: 550px;
+  height: 400px;
+  perspective: 1000px;
+  cursor: pointer;
+  transition: transform 0.6s;
+  border-radius: 10%;
+  border: 2px solid white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.education-box .front,
+.education-box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  backface-visibility: hidden;
+  transition: opacity 0.3s;
+  border: 2px solid white;
+  color: white;
+
+}
+
+.education-box .front {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(0deg);
+}
+
+.education-box .back {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotateY(180deg);
+  color: white;
+  padding: 20px;
+}
+
+
+.education-box.light .front {
+  background-color: cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(0deg);
+  color: black;
+}
+
+.education-box.light .back {
+  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotateY(180deg);
+  color: black;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.education-box.flipped .front {
+  opacity: 0;
+}
+
+.education-box.flipped .back {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+.flip-flop {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  font-size: 40px;
+  transition: opacity 0.3s, transform 0.6s;
+}
+
+.education-item-back {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.education-item-back p {
+  margin: 0;
+}
+
+.education-item-back strong {
+  margin-right: 10px;
+}
+.link{
+  color: gray;
+  text-decoration: underline;
+}
+.link:hover{
+color:blue;
+}
