@@ -13,8 +13,8 @@ import './form.css';
 
 const App = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
   const [theme, setTheme] = useState('light');
 
   const handleFormSubmit = (name, email) => {
@@ -42,7 +42,7 @@ const App = () => {
             <Footer theme={theme} />
           </>
         ) : (
-          <Form onSubmit={handleFormSubmit} />
+          <Form />
         )}
       </Router>
     </div>

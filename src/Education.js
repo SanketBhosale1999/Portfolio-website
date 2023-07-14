@@ -135,7 +135,7 @@ const Education = ({theme}) => {
         <div className="back">
           <div className="education-item-back">
             <p><strong>Name of College/Board:</strong>
-             <a href='https://www.mahahsscboard.in/' target="_blank" rel='noopener no referrer' className="link">Maharashtra State Board</a> 
+             <a href='https://www.mahahsscboard.in/' target="_blank" rel='noopener noreferrer' className="link">Maharashtra State Board</a> 
             </p>
           </div>
           <div className="education-item-back">
