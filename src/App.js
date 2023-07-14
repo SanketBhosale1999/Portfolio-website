@@ -19,8 +19,8 @@ const App = () => {
 
   const handleFormSubmit = (name, email) => {
     setIsSubmitted(true);
-    setName(name);
-    setEmail(email);
+    // setName(name);
+    // setEmail(email);
   };
 
   const handleThemeToggle = () => {
@@ -42,7 +42,7 @@ const App = () => {
             <Footer theme={theme} />
           </>
         ) : (
-          <Form />
+          <Form onSubmit={handleFormSubmit} />
         )}
       </Router>
     </div>

@@ -42,7 +42,7 @@ const Home = ({theme}) => {
             <h6 className="name">Sanket Bhosale</h6>
           </div>
           <div className="profile-image-container">
-            <img src={profile} alt="User profile photo" className="profile-image" />
+            <img src={profile} alt="User pic" className="profile-image" />
           </div>
         </div>
       </div>
